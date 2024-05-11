@@ -21,5 +21,5 @@ start server --server-port 0 --dir state/s2
 
 Create a region for the data
 ```
-create region --name petnames --type=PARTITION
+create region --name presidents --type=PARTITION
 ```
