@@ -23,3 +23,11 @@ Create a region for the data
 ```
 create region --name presidents --type=PARTITION
 ```
+
+Examples of put and get commands
+```
+put --region presidents --key 1 --value "George Washington"
+put --region presidents --key 2 --value "John Adams"
+put --region presidents --key 3 --value "Thomas Jefferson"
+get --region presidents --key 2
+```
