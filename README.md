@@ -61,7 +61,7 @@ get --region presidents --key 2 --key-class=java.lang.Integer
 
 Checkout the example code
 ```text
-
+git clone https://github.com/ivan-greenplum/gemfire-hello.git
 ```
 
 Compile the example code
